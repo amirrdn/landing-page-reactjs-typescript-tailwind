@@ -50,18 +50,18 @@ const Home:React.FC = () => {
                             <div className="elipse-a text-white text-[17px] font-[600] relative top-1">1</div>
                             <div className="px-2 color-blue text-[20px] font-[600] w-full">Immatriculation</div>
                         </div>
-                        <div className="h-[58px] mt-4 bg-gray-200 lg:w-[679px] px-4 py-4 font-[500] text-[20px] text-gray-500">AA-123-AA</div>
+                        <input  className="h-[58px] mt-4 bg-gray-200 lg:w-[679px] px-4 py-4 font-[500] text-[20px] text-gray-500 focus:border focus:border-gray-200 focus:ring-0 focus:outline-none" placeholder="AA-123-AA" />
                         <div className="flex flex-row mt-4">
                             <div className="elipse-a text-white text-[17px] font-[600] relative top-1">2</div>
                             <div className="px-2 color-blue text-[20px] font-[600] w-full">Date de la vente</div>
                         </div>
-                        <div className="h-[58px] mt-4 bg-gray-200 lg:w-[679px] px-4 py-4 font-[500] text-[20px] text-gray-500">JJ/MM/AAAA</div>
+                        <input type="text" className="h-[58px] mt-4 bg-gray-200 lg:w-[679px] px-4 py-4 font-[500] text-[20px] text-gray-500 focus:border focus:border-gray-200 focus:ring-0 focus:outline-none" placeholder="JJ/MM/AAAA" />
                         <div className="flex flex-row mt-4">
                             <div className="elipse-a text-white text-[17px] font-[600] relative top-1">3</div>
                             <div className="px-2 color-blue text-[20px] font-[600] w-full">heure de la vente</div>
                         </div>
-                        <div className="h-[58px] mt-4 bg-gray-200 lg:w-[679px] px-4 py-4 font-[500] text-[20px] text-gray-500">--:--</div>
-                        <button className="btn-suivant font-[600] text-[24px] rounded-lg my-20">Suivant</button>
+                        <input type="text" className="h-[58px] mt-4 bg-gray-200 lg:w-[679px] px-4 py-4 font-[500] text-[20px] text-gray-500 focus:border focus:border-gray-200 focus:ring-0 focus:outline-none" placeholder="--:--" />
+                        <button type="submit" className="btn-suivant font-[600] text-[24px] rounded-lg my-20">Suivant</button>
                     </div>
                     <div className="monsterat max-sm:p-4">
                         <img src={imgInfo} alt="img-blue" className="relative top-3 -left-4"/>
